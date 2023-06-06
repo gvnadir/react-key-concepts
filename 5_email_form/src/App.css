@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid black;
+  height: auto;
+  width: 215px;
+}
+
+.container form {
+  height: 100%;
+}
+
+form label {
+  display: flex;
+  margin: 5px;
+}
+
+form input {
+  margin: 5px;
+}
+
+form button {
+  margin: 5px;
+}
+
+form div {
+  margin: 5px;
+}
