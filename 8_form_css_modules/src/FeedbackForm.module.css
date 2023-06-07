@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid black;
+  width: 350px;
+  height: auto;
+  padding: 15px;
+}
+
+.container label {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.container input {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.container button {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+.labelInvalid {
+  font-weight: bold;
+  color: #ce0653;
+}
+
+.inputInvalid {
+  background-color: #fcbed6;
+  border-color: #ce0653;
+}
