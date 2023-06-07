@@ -36,7 +36,7 @@ function FeedbackForm() {
         </label>
         <input
           className={emailIsInvalid ? "invalid" : null}
-          type="text"
+          type="email"
           onBlur={addEmailHandler}
         />
         <label
