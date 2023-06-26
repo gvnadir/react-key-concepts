@@ -20,7 +20,6 @@ function Authentication() {
 
   if (mode !== "login") {
     authElement = <Signup />;
-
     switchBtnCaption = "Login instead";
   }
 

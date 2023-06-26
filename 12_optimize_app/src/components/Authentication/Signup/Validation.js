@@ -11,7 +11,8 @@ function Validation({ email, confirmEmail, password }) {
   const emailsAreValid = email.includes("@") && email === confirmEmail;
 
   // Since the password validation involves various regular expressions, it makes sense
-  // avoiding unnecessary code execution if the password prop doesn't change. This can be achieved using useMemo().
+  // avoiding unnecessary code execution if the password prop doesn't change.
+  // This can be achieved using useMemo().
   const passwordValidityData = useMemo(() => {
     const pwHasMinLength = password.length >= 8;
     const pwHasMinSpecChars = specCharsRegex.test(password);

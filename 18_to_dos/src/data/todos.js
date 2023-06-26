@@ -17,7 +17,6 @@ export function getTodo(id) {
   if (!todo) {
     throw new Error("Could not find todo for id " + id);
   }
-
   return todo;
 }
 
