@@ -16,7 +16,7 @@ function EmailForm() {
     setError(null);
   }
 
-  const displayError = error && <div>{error}</div>;
+  const displayError = error && <div style={{ color: "red" }}>{error}</div>;
 
   return (
     <div className="container">
