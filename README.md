@@ -1,5 +1,5 @@
 # react-key-concepts
-Exercices from the React Key Concept book
+Exercises from the React Key Concept book
 
 # 1. What is React?
 
